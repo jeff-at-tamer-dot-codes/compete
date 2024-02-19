@@ -1,0 +1,1 @@
+while 1:*a,=map(input,['']*8);print(a.index(max(a)))
