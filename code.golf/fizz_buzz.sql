@@ -1,0 +1,1 @@
+with z as(select 1,1 b union select case when 14=mod(b,15)then'FizzBuzz'when 2=mod(b,3)then'Fizz'when mod(b+1,5)then b+1 else'Buzz'end,b+1 from z where b<100)select*from z

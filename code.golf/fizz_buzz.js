@@ -1,0 +1,1 @@
+for(i=1;i<101;++i)print((i%3?'':'Fizz')+(i%5?'':'Buzz')||i)

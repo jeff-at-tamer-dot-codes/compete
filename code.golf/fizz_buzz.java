@@ -1,0 +1,1 @@
+class Main{public static void main(String[]a){for(int i=1;i<101;++i){String s=(i%3<1?"Fizz":"")+(i%5<1?"Buzz":"");System.out.println((s.isEmpty())?s+i:s);}}}

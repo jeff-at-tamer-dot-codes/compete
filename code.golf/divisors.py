@@ -1,0 +1,1 @@
+for i in(r:=range(1,101)):print(*[j for j in r if i%j<1])

@@ -1,0 +1,2 @@
+i=0;j='ing,/'
+for o in'First Second Third Fourth Fifth Sixth Seventh Eighth Ninth Tenth Eleventh Twelfth'.split():i-=1;print(f'On the {o} day of Christmas\nMy true love sent to me',*f'Twelve Drummers Drumm{j}Eleven Pipers Pip{j}Ten Lords-a-Leap{j}Nine Ladies Danc{j}Eight Maids-a-Milk{j}Seven Swans-a-Swimm{j}Six Geese-a-Lay{j}Five Gold Rings,/Four Calling Birds,/Three French Hens,/Two Turtle Doves, and/A Partridge in a Pear Tree.'.split('/')[i:]+[''],sep='\n')

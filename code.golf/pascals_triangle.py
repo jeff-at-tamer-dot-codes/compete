@@ -1,0 +1,1 @@
+for _ in(a:=[1])*20:print(*a);*a,=map(sum,zip([0]+a,a+[0]))

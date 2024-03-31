@@ -1,0 +1,2 @@
+#include<string.h>
+int n[]={0,2,3,5,7,8,10};char*x[]={"°","m","","+"};int f(char*s){return(s[1]?s[3]:2)+n[*s-65];}main(int y,char**z){int t,i;char*a,*b,*c,*d;for(t=1;t<y;++t){a=strtok(z[t]," ");b=strtok(0," ");c=strtok(0," ");for(i=0;i<2;++i){if(*a>*b){d=a;a=b;b=d;}if(*b>*c){d=b;b=c;c=d;}}for(i=0;i<12;++i){if((*b-*a-2)%7==0&(*c-*b-2)%7==0&(f(b)-f(a)-i/2%2-3)%12==0&(f(c)-f(b)-i%2-3)%12==0){printf("%s%s\n",a,x[i%4]);}d=a;a=b;b=c;c=d;}}}
